@@ -59,8 +59,27 @@ Obviamente para todo este proceso se usara la API del juego que se podra encontr
 * Solicitud de autorización: `Authorization: Bearer [api key]`
 * Parametro de consulta *access_token*: `?access_token=[api key]`
 
+![nodejs]
+
+Usare node ya que es requerido para usar la API
+
+Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos.
+
+![bootstrapimg]
+
+Para el tema estético usare [bootstrap] ya que quiero evitar en la medida de lo posblie tocar codigo css a mano.
+
+---
+
+### 5. Planificación
+
+Mi idea es primero aprender todo lo referente a la API
+
 [gw2efficiency]: https://gw2efficiency.com/
 [gw2cuenta]: /img/Captura.PNG
 [django]: /img/django.png
 [gw2apimg]: /img/gw2apimg.png
 [gw2 wiki]: https://wiki.guildwars2.com/wiki/API:Main
+[nodejs]: /img/nodejs.png
+[bootstrapimg]: /img/bootstrap.png
+[bootstrap]: https://getbootstrap.com/
