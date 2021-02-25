@@ -14,37 +14,39 @@ Proyecto realizado por ***Alejandro Gamaza Martínez***
 
 ### 1. Introdución
 
-Mi proyecto sera la realización de una pagina web donde se podra ver la información de tu propia cunta del juego Guild Wars 2 donde este ofrece unas series de API para poder ver los datos que esto manejas. Mi idea es darle al usuario la capacidad de poder registrarse en el gremio que tenemos en el juego a través de esta web y mantenerse informado tanto de las novedades de las actualizacion del jeugo como del gremio.
+Mi proyecto sera la realización de una pagina web donde se podra ver la información de tu propia cuenta del juego Guild Wars 2 donde este ofrece unas series de API para poder ver los datos que esto manejas. Mi idea es darle al usuario la capacidad de poder registrarse en el gremio que tenemos en el juego a través de esta web y mantenerse informado tanto de las novedades de las actualización del juego como del gremio.
 
-No solamente será informatico, tambien se publicaran datos extraidos del juego cuando se hagan misiones en zonas especificas para que cada usuario pueda consultar su avance en estas.
+No solamente será informativo, también se publicarán datos extraídos del juego cuando se hagan misiones en zonas específicas para que cada usuario pueda consultar su avance en estas.
 
 #### 1.1 Causa
 
-La idea vino de una web ya existente donde puedes ver datos de tu cuenta [gw2efficiency] pero investigando ninguna gestiona un gremio, no hay una web donde puedas crearte una cuenta y solicitar entrar al gremio del juego. Además sera algo personal y que se va a usar.
+La idea vino de una web ya existente donde puedes ver datos de tu cuenta [gw2efficiency] pero investigando ninguna gestiona un gremio, no hay una web donde puedas crearte una cuenta y solicitar entrar al gremio del juego. Además sera algo personal y de gran utilidad.
 
 ---
 
 ### 2. Finalidad
 
-La finalidad del proyecto es ofrecer a los jugadores y principalmente miembros de gremio un lugar web donde puedan ver su progreso en el juego e información respectivo a este sin tener que entrar en el. Será beneficioso tanto para los jugadores como para los administradores del gremio.
+La finalidad del proyecto es ofrecer a los jugadores, y principalmente, miembros de gremio, un lugar web donde puedan ver su progreso en el juego e información respectivo a este sin tener que entrar en el. Será beneficioso tanto para los jugadores como para los administradores del gremio.
 
 Visualizacion de ejemplo ([gw2efficiency])
 
 ![gw2cuenta]
 
-Como se puede ver en la imagen tengo informacion a mi cuenta haciendo uso de una API key que te ofrece el juego. Mi idea es realizar una web que haga uso de esa API key para ver informacion relacionada a nuestro clan y otros datos.
+Como se puede ver en la imagen tengo información de mi cuenta haciendo uso de una API key que te ofrece el juego. Mi idea es realizar una web que haga uso de esa API key para ver información relacionada a nuestro clan y otros datos.
 
 ---
 
 ### 3. Objetivo
 
-Cuando la web este apunto los usuarios podran conocer nuestro clan y soliciar entrar en el a través de un registro, luego una vez dentro podras ver las noticias sobre los eventos que se vayan a realizar y tambien de manera publica (sin necesidad de tener una cuenta) poder ver las notas de actualización del juego.
+Cuando la web este apunto los usuarios podrán conocer nuestro clan y solicitar entrar en el a través de un registro, luego una vez dentro podrás ver las noticias sobre los eventos que se vayan a realizar.
+
+También de manera publica (sin necesidad de tener una cuenta) poder ver las notas de actualización del juego.
 
 ---
 
 ### 4. Medios hardware y software
 
-El apartado técnico sera el más problematico ya que en el momento de producción seguramente tengo que modificar ciertos puntos escritos en este documento. Por este motivo estas herramientas seran una extimación.
+El apartado técnico sera el más problemático ya que en el momento de producción seguramente tengo que modificar ciertos puntos escritos en este documento. Por este motivo estas herramientas serán una estimación.
 
 ***Se usara:***
 
@@ -54,7 +56,7 @@ Como base fundamental de todo el proyecto se hará uso del framework django vist
 
 ![gw2apimg]
 
-Obviamente para todo este proceso se usara la API del juego que se podra encontrar en [gw2 wiki]
+Obviamente para todo este proceso se usara la API del juego que se podrá encontrar en [gw2 wiki]
 
 * Solicitud de autorización: `Authorization: Bearer [api key]`
 * Parametro de consulta *access_token*: `?access_token=[api key]`
@@ -67,7 +69,7 @@ Node.js es un entorno en tiempo de ejecución multiplataforma, de código abiert
 
 ![bootstrapimg]
 
-Para el tema estético usare [bootstrap] ya que quiero evitar en la medida de lo posblie tocar codigo css a mano.
+Para el tema estético usare [bootstrap] ya que quiero evitar en la medida de lo posible tocar código css a mano.
 
 ---
 
