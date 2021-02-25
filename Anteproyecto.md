@@ -44,5 +44,23 @@ Cuando la web este apunto los usuarios podran conocer nuestro clan y soliciar en
 
 ### 4. Medios hardware y software
 
+El apartado técnico sera el más problematico ya que en el momento de producción seguramente tengo que modificar ciertos puntos escritos en este documento. Por este motivo estas herramientas seran una extimación.
+
+***Se usara:***
+
+![django]
+
+Como base fundamental de todo el proyecto se hará uso del framework django visto en clases ya que me parece una herramienta muy versátil y se le podrá sacar provecho.
+
+![gw2apimg]
+
+Obviamente para todo este proceso se usara la API del juego que se podra encontrar en [gw2 wiki]
+
+* Solicitud de autorización: `Authorization: Bearer [api key]`
+* Parametro de consulta *access_token*: `?access_token=[api key]`
+
 [gw2efficiency]: https://gw2efficiency.com/
 [gw2cuenta]: /img/Captura.PNG
+[django]: /img/django.png
+[gw2apimg]: /img/gw2apimg.png
+[gw2 wiki]: https://wiki.guildwars2.com/wiki/API:Main
