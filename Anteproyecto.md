@@ -46,13 +46,13 @@ También de manera publica (sin necesidad de tener una cuenta) poder ver las not
 
 ### 4. Medios hardware y software
 
-El apartado técnico sera el más problemático ya que en el momento de producción seguramente tengo que modificar ciertos puntos escritos en este documento. Por este motivo estas herramientas serán una estimación.
+El apartado técnico será el más problemático, ya que en el momento de producción seguramente tenga que modificar ciertos puntos escritos en este documento. Por este motivo estas herramientas serán una estimación.
 
 ***Se usara:***
 
 ![django]
 
-Como base fundamental de todo el proyecto se hará uso del framework django visto en clases ya que me parece una herramienta muy versátil y se le podrá sacar provecho.
+Como base fundamental de todo el proyecto se hará uso del framework django visto en clases, ya que me parece una herramienta muy versátil y se le podrá sacar provecho.
 
 ![gw2apimg]
 
@@ -69,7 +69,7 @@ Node.js es un entorno en tiempo de ejecución multiplataforma, de código abiert
 
 ![bootstrapimg]
 
-Para el tema estético usare [bootstrap] ya que quiero evitar en la medida de lo posible tocar código css a mano.
+Para el tema estético usare [bootstrap], ya que quiero evitar en la medida de lo posible tocar código css a mano.
 
 ---
 
