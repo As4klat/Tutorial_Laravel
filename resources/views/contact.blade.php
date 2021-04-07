@@ -5,7 +5,7 @@
 @section('content')
     <h1>Esto es el Contact</h1>
 
-    <form method="POST" action="{{route('contact')}}">
+    <form method="POST" action="{{route('messages.store')}}">
 
         @csrf
 
