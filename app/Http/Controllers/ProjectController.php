@@ -14,6 +14,12 @@ class ProjectController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('auth')->except('index', 'show');
+    }
+
     public function index()
     {
         return view('projects.index', [
@@ -38,7 +44,7 @@ class ProjectController extends Controller
     public function store(SaveProjectRequest $request)
     {
         Project::create($request->validated());
-        return redirect()->route('projects.index');
+        return redirect()->route('projects.index')->with('status',  $request->title.' fue creado con exito.');
     }
 
     public function edit(Project $project)
@@ -51,12 +57,13 @@ class ProjectController extends Controller
     public function update(Project $project, SaveProjectRequest $request)
     {
         $project->update($request->validated());
-        return redirect()->route('projects.show', $project);
+        return redirect()->route('projects.show', $project)->with('status', $request->title.' fue actualizado con exito.');
     }
 
     public function destroy(Project $project)
     {
+        $title = $project->title;
         $project->delete();
-        return redirect()->route('projects.index');
+        return redirect()->route('projects.index')->with('status', $title.' fue borrado con exito.');
     }
 }

@@ -5,8 +5,10 @@
 @section('content')
 
     <h1>Esto es el Portafolio</h1>
-
+@auth
     <a href="{{ route('projects.create') }}">Crear nuevo proyecto</a>
+@endauth
+
 
     <ul>
         @forelse ($projects as $project)
